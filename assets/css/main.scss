@@ -7,6 +7,39 @@
 /* Google Fonts 불러오기 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap');
 
+/* 기본 본문 폰트 */
+body {
+  font-family: 'Noto Sans', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+  font-weight: 400;
+}
+
+/* 제목용 세리프 폰트 */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.site-title {
+  font-family: 'Noto Serif KR', 'Noto Sans KR', serif !important;
+  color: #1a1a1a !important;
+  font-weight: 400;
+}
+
+/* 본문 */
+.page__content,
+.archive__item-excerpt,
+p, li {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+/* 네비게이션 메뉴 */
+.greedy-nav,
+.greedy-nav a {
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+}
+
+/* ===== 폰트 설정 끝 ===== */
+
 /* 프로필 사진 네모로 만들기 */
 .author__avatar img {
   border-radius: 0 !important;
