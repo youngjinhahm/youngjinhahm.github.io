@@ -166,8 +166,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - admin
-  - admin-config.yml
   
 exclude:
   - "*.sublime-project"
