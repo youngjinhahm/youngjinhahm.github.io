@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: youngjinhahm/youngjinhahm.github.io
+  branch: master
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "economy"
+    label: "경제"
+    folder: "_posts"
+    filter: {field: "categories", value: "economy"}
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "날짜", name: "date", widget: "datetime"}
+      - {label: "카테고리", name: "categories", widget: "hidden", default: "economy"}
+      - {label: "태그", name: "tags", widget: "list", required: false}
+      - {label: "내용", name: "body", widget: "markdown"}
+
+  - name: "movies"
+    label: "영화"
+    folder: "_posts"
+    filter: {field: "categories", value: "movies"}
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "날짜", name: "date", widget: "datetime"}
+      - {label: "카테고리", name: "categories", widget: "hidden", default: "movies"}
+      - {label: "태그", name: "tags", widget: "list", required: false}
+      - {label: "내용", name: "body", widget: "markdown"}
+
+  - name: "books"
+    label: "책"
+    folder: "_posts"
+    filter: {field: "categories", value: "books"}
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "날짜", name: "date", widget: "datetime"}
+      - {label: "카테고리", name: "categories", widget: "hidden", default: "books"}
+      - {label: "태그", name: "tags", widget: "list", required: false}
+      - {label: "내용", name: "body", widget: "markdown"}
+
+  - name: "world"
+    label: "세상"
+    folder: "_posts"
+    filter: {field: "categories", value: "world"}
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "날짜", name: "date", widget: "datetime"}
+      - {label: "카테고리", name: "categories", widget: "hidden", default: "world"}
+      - {label: "태그", name: "tags", widget: "list", required: false}
+      - {label: "내용", name: "body", widget: "markdown"}
