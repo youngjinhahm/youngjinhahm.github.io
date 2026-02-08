@@ -71,16 +71,15 @@ a:hover {
 /* ===== 최근 포스트 & 글 목록 폰트 ===== */
 
 /* 최근 포스트 제목 */
-.archive__item-title,
-.archive__item-title a {
-  font-family: 'Noto Serif KR', serif !important;
+
+.archive__item-title {
+  font-family: 'Noto Sans KR', sans-serif !important;
   color: #1a1a1a !important;
   font-weight: 400 !important;
 }
 
 /* 최근 포스트 본문/설명 */
-.archive__item-excerpt,
-.archive__item-teaser {
+.archive__item-excerpt{
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
   }
 
