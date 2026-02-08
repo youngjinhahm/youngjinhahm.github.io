@@ -4,6 +4,9 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* Google Fonts 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+
 /* 프로필 사진 네모로 만들기 */
 .author__avatar img {
   border-radius: 0 !important;
