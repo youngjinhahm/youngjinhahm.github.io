@@ -8,7 +8,110 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 프로필 사진 네모로 만들기 */
+/* Ben Evans 스타일 커스터마이징 */
+
+/* 전체 레이아웃 */
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* 메인 타이틀 */
+.page__title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+}
+
+/* 본문 */
+.page__content {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.page__content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+/* 글 목록 */
+.archive__item-title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.archive__item-excerpt {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* 날짜 */
+.page__meta {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* 링크 */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* 네비게이션 메뉴 */
+.greedy-nav {
+  background: transparent;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.greedy-nav a {
+  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.greedy-nav a:hover {
+  color: #000;
+}
+
+/* 사이트 타이틀 */
+.site-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* 푸터 */
+.page__footer {
+  margin-top: 120px;
+  padding-top: 40px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #999;
+}
+
+/* 여백 조정 */
+.page__content p {
+  margin-bottom: 24px;
+}
+
+.page__content ul {
+  margin-bottom: 24px;
+}
+
+/* 프로필 사진 (이미 있는 코드 유지) */
 .author__avatar img {
   border-radius: 0 !important;
 }
