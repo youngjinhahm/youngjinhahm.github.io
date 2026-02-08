@@ -3,12 +3,6 @@ backend:
   repo: youngjinhahm/youngjinhahm.github.io
   branch: master
 
-# GitHub에서 직접 사용하는 방법 (간단함)
-# backend:
-#   name: github
-#   repo: youngjinhahm/youngjinhahm.github.io
-#   branch: master
-
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
