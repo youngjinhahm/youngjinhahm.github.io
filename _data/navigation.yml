@@ -1,10 +1,18 @@
 # main links
 main:
-  - title: "글"
-    url: /posts/
-
   - title: "소개"
     url: /about/
 
-  - title: "연락처"
-    url: /contact/
+  - title: "경제"
+    url: /categories/economy/
+
+  - title: "영화"
+    url: /categories/movies/
+
+  - title: "책"
+    url: /categories/books/
+
+  - title: "세상"
+    url: /categories/world/
+
+    
