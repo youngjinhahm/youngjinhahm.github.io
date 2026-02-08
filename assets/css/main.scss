@@ -108,11 +108,13 @@ a:hover {
   font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
 }
 
-/* 관련 글 섹션 */
-.page__related {
-  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif !important;
+
+/* 푸터 전체 텍스트 */
+.page__footer {
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
 
-.page__related h4 {
-  font-family: 'Noto Serif KR', serif !important;
+/* 푸터 내의 링크나 저작권 표시 부분 */
+.page__footer-follow, .page__footer-copyright {
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
