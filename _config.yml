@@ -166,6 +166,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - admin
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -326,6 +327,4 @@ defaults:
       share: true
       related: true
 
-# Admin 폴더 포함
-include:
-  - admin
+
